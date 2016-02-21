@@ -1,0 +1,41 @@
+[Eagle]
+Version="06 06 00"
+Platform="Windows"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/adafruit.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/GeekAmmo.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/LilyPad-Wearables.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-AnalogIC.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Boards.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Displays.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-LED.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Passives.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-RF.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Retired.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Program Files (x86)/EAGLE-6.6.0/lbr/SparkFun-Eagle-Libraries-master/User-Submitted.lbr"
+UsedLibrary="C:/Users/Jared/Downloads/smart-bandage-master/hardware/Capstone Library.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="134 0 931 827"
+State=2
+Number=0
+
+[Desktop]
+Screen="1600 900"
+Window="Win_1"
