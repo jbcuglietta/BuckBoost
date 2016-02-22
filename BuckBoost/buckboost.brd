@@ -148,6 +148,17 @@
 <wire x1="27.30135625" y1="24.257" x2="27.30135625" y2="3.81" width="0.3048" layer="20"/>
 <wire x1="27.30135625" y1="3.81" x2="2.40935625" y2="3.81" width="0.3048" layer="20"/>
 <wire x1="2.40935625" y1="3.81" x2="2.40935625" y2="24.257" width="0.3048" layer="20"/>
+<text x="6.55828125" y="14.82598125" size="0.8128" layer="21">GND</text>
+<text x="6.58621875" y="12.3698" size="0.8128" layer="21">GND</text>
+<text x="6.72591875" y="7.1755" size="0.8128" layer="21">EN</text>
+<text x="6.58621875" y="9.21511875" size="0.8128" layer="21">PS/
+SYNC</text>
+<text x="6.70051875" y="17.421859375" size="0.8128" layer="21">VIN</text>
+<text x="6.670040625" y="19.936459375" size="0.8128" layer="21">VIN</text>
+<text x="20.652740625" y="14.9098" size="0.8128" layer="21">VOUT</text>
+<text x="20.68068125" y="17.282159375" size="0.8128" layer="21">VOUT</text>
+<text x="21.236940625" y="12.303759375" size="0.8128" layer="21">GND</text>
+<text x="21.282659375" y="9.74598125" size="0.8128" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="Capstone Library">
@@ -523,22 +534,41 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="Capstone Library" package="SON-10" value="TPS63031" x="14.22035625" y="16.002" rot="R180"/>
+<element name="U$1" library="Capstone Library" package="SON-10" value="TPS63031" x="14.22035625" y="16.002" smashed="yes" rot="R180"/>
 <element name="L1" library="Capstone Library" package="IND1212" value="1.5 uH" x="14.22035625" y="21.082"/>
-<element name="C1" library="SparkFun-Capacitors" package="1206" value="10uF" x="17.26835625" y="16.637" rot="R90"/>
+<element name="C1" library="SparkFun-Capacitors" package="1206" value="10uF" x="17.26835625" y="16.637" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.604740625" y="20.631315625" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="17.81048125" y="19.760096875" size="0.4064" layer="27" rot="R180"/>
+</element>
 <element name="C2" library="SparkFun-Capacitors" package="1206" value="0.1uF" x="12.483778125" y="10.423778125" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.372778125" y="9.661778125" size="0.4064" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="13.499778125" y="11.566778125" size="0.4064" layer="27" font="vector" rot="R180"/>
+<attribute name="NAME" x="11.442378125" y="8.897240625" size="0.4064" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="14.101759375" y="8.912478125" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="1206" value="10uF" x="11.04535625" y="16.637" rot="R90"/>
-<element name="C4" library="SparkFun-Capacitors" package="1206" value="10uF" x="19.55435625" y="16.637" rot="R270"/>
-<element name="R1" library="SparkFun-Resistors" package="1206" value="" x="18.99775625" y="11.6930875" rot="R90"/>
-<element name="R2" library="SparkFun-Resistors" package="1206" value="" x="16.60293125" y="11.6957" rot="R90"/>
-<element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="25.401459375" y="17.779471875" rot="R270">
+<element name="C3" library="SparkFun-Capacitors" package="1206" value="10uF" x="11.04535625" y="16.637" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.579775" y="14.843759375" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="9.633115625" y="17.2110375" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" package="1206" value="10uF" x="19.55435625" y="16.637" smashed="yes" rot="R270">
+<attribute name="NAME" x="19.204940625" y="20.217296875" size="0.4064" layer="25"/>
+<attribute name="VALUE" x="18.87728125" y="19.358778125" size="0.4064" layer="27"/>
+</element>
+<element name="R1" library="SparkFun-Resistors" package="1206" value="" x="18.99775625" y="11.6930875" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.330471875" y="8.809815625" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="20.52175625" y="10.2960875" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" package="1206" value="" x="16.60293125" y="11.6957" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.833578125" y="8.827990625" size="0.4064" layer="25" rot="R180"/>
+<attribute name="VALUE" x="18.12693125" y="10.2987" size="0.4064" layer="27" rot="R90"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" package="1X04" value="" x="25.401459375" y="17.779471875" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-09696" x="25.401459375" y="17.779471875" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="24.580109375" y="19.67121875" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="22.226459375" y="19.049471875" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" package="1X06" value="" x="5.08" y="7.62" rot="R90">
+<element name="J2" library="SparkFun-Connectors" package="1X06" value="" x="5.08" y="7.62" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CONN-08437" x="5.08" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="5.869940625" y="23.395940625" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="8.255" y="6.35" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -668,8 +698,8 @@ Please make sure your boards conform to these design rules.</description>
 <polygon width="0.3048" layer="16" rank="2">
 <vertex x="2.9337" y="23.7871"/>
 <vertex x="26.8097" y="23.7871"/>
-<vertex x="26.6827" y="6.7691"/>
-<vertex x="2.8067" y="6.7691"/>
+<vertex x="26.6827" y="4.2291"/>
+<vertex x="2.8067" y="4.2291"/>
 </polygon>
 <polygon width="0.3048" layer="1" thermals="no" rank="3">
 <vertex x="4.56835625" y="16.256"/>
@@ -753,4 +783,10 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
