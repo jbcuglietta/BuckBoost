@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0254" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00254" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -661,6 +661,26 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.30178125" y1="10.287" x2="21.30178125" y2="13.21575" width="0.3048" layer="1"/>
 <wire x1="21.30178125" y1="13.21575" x2="22.3308" y2="14.99375" width="0.3048" layer="16"/>
 <wire x1="22.3308" y1="14.99375" x2="21.31115625" y2="18.354959375" width="0.3048" layer="16"/>
+<polygon width="0.3048" layer="1" thermals="no" rank="2">
+<vertex x="21.971" y="18.923"/>
+<vertex x="22.2504" y="18.923"/>
+<vertex x="22.3774" y="18.796"/>
+<vertex x="25.9588" y="18.796"/>
+<vertex x="26.416" y="18.796"/>
+<vertex x="26.3906" y="18.7706"/>
+<vertex x="26.3906" y="14.7066"/>
+<vertex x="25.8826" y="14.1986"/>
+<vertex x="25.8572" y="14.1732"/>
+<vertex x="24.9174" y="14.1732"/>
+<vertex x="24.384" y="14.7066"/>
+<vertex x="24.384" y="16.129"/>
+<vertex x="24.1808" y="16.3322"/>
+<vertex x="23.622" y="16.891"/>
+<vertex x="21.2598" y="16.891"/>
+<vertex x="21.971" y="17.6022"/>
+</polygon>
+<contactref element="J1" pad="1"/>
+<contactref element="J1" pad="2"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
@@ -732,6 +752,26 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="9.26735625" y="13.589"/>
 <vertex x="9.26735625" y="14.351"/>
 <vertex x="9.39435625" y="14.224"/>
+</polygon>
+<contactref element="J1" pad="3"/>
+<contactref element="J1" pad="4"/>
+<polygon width="0.3048" layer="1" thermals="no" rank="2">
+<vertex x="24.892" y="13.6906"/>
+<vertex x="25.9334" y="13.6906"/>
+<vertex x="26.3906" y="13.2334"/>
+<vertex x="26.3906" y="9.6266"/>
+<vertex x="25.908" y="9.144"/>
+<vertex x="24.8666" y="9.144"/>
+<vertex x="24.384" y="9.6266"/>
+<vertex x="24.384" y="11.3538"/>
+<vertex x="24.384" y="11.6332"/>
+<vertex x="21.6662" y="14.351"/>
+<vertex x="21.6662" y="16.4338"/>
+<vertex x="23.2664" y="16.4338"/>
+<vertex x="23.8506" y="15.8496"/>
+<vertex x="23.8506" y="14.5034"/>
+<vertex x="24.6634" y="13.6906"/>
+<vertex x="24.8666" y="13.6906"/>
 </polygon>
 </signal>
 <signal name="L1">
