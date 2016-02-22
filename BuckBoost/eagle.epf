@@ -32,10 +32,10 @@ UsedLibrary="C:/Users/Jared/Downloads/smart-bandage-master/hardware/Capstone Lib
 
 [Win_1]
 Type="Control Panel"
-Loc="134 0 931 827"
+Loc="545 213 1144 612"
 State=2
 Number=0
 
 [Desktop]
-Screen="1600 900"
+Screen="2880 1800"
 Window="Win_1"
