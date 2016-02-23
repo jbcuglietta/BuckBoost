@@ -159,9 +159,10 @@ SYNC</text>
 <text x="20.68068125" y="17.282159375" size="0.8128" layer="21">VOUT</text>
 <text x="21.236940625" y="12.303759375" size="0.8128" layer="21">GND</text>
 <text x="21.282659375" y="9.74598125" size="0.8128" layer="21">GND</text>
-<text x="9.743440625" y="4.8387" size="0.8128" layer="21">EN_VINA</text>
-<text x="16.024859375" y="4.861559375" size="0.8128" layer="21">PS_VINA</text>
 <text x="13.27911875" y="23.0505" size="0.4064" layer="21">1.5uH</text>
+<text x="11.42491875" y="5.0927" size="0.4064" layer="21">EN_VINA</text>
+<text x="16.71828125" y="5.05968125" size="0.4064" layer="21">PS_VINA</text>
+<text x="21.1074" y="5.0927" size="0.4064" layer="21">VOUT_VFB</text>
 </plain>
 <libraries>
 <library name="Capstone Library">
@@ -602,6 +603,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="SJ1" library="SparkFun-Retired" package="SJ_2S" value="SOLDERJUMPERNC" x="12.64158125" y="6.982465625" smashed="yes"/>
 <element name="SJ2" library="SparkFun-Retired" package="SJ_2S" value="SOLDERJUMPERNC" x="17.9679625" y="6.969759375" smashed="yes"/>
+<element name="SJ3" library="SparkFun-Retired" package="SJ_2S" value="SOLDERJUMPERNC" x="22.606" y="6.974840625" smashed="yes"/>
 </elements>
 <signals>
 <signal name="VIN">
@@ -696,6 +698,11 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="21.012090625" y1="10.287" x2="21.93678125" y2="11.211690625" width="0.3048" layer="1"/>
 <wire x1="21.93678125" y1="11.211690625" x2="21.93678125" y2="17.9960375" width="0.3048" layer="16"/>
 <wire x1="21.93678125" y1="17.9960375" x2="21.8369375" y2="18.09588125" width="0.3048" layer="16"/>
+<contactref element="SJ3" pad="2"/>
+<wire x1="23.05091875" y1="9.96908125" x2="21.93678125" y2="11.08321875" width="0.3048" layer="1"/>
+<wire x1="21.93678125" y1="11.08321875" x2="21.93678125" y2="11.211690625" width="0.3048" layer="1"/>
+<wire x1="23.05091875" y1="9.96908125" x2="23.0179" y2="9.9360625" width="0.3048" layer="1"/>
+<wire x1="23.0179" y1="9.9360625" x2="23.0179" y2="6.974840625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R1" pad="2"/>
@@ -707,6 +714,15 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.23635625" y1="14.752" x2="15.23635625" y2="13.081" width="0.3048" layer="1"/>
 <wire x1="15.23635625" y1="13.081" x2="16.60293125" y2="13.081" width="0.3048" layer="1"/>
 <wire x1="16.60293125" y1="13.081" x2="16.60293125" y2="13.0957" width="0.3048" layer="1"/>
+<contactref element="SJ3" pad="1"/>
+<wire x1="18.99775625" y1="13.0930875" x2="19.064409375" y2="13.159740625" width="0.3048" layer="1"/>
+<wire x1="19.064409375" y1="13.159740625" x2="20.8534" y2="13.159740625" width="0.3048" layer="1"/>
+<via x="20.8534" y="13.159740625" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="20.8534" y1="13.159740625" x2="20.330159375" y2="12.6365" width="0.3048" layer="16"/>
+<wire x1="20.330159375" y1="12.6365" x2="20.330159375" y2="7.0358" width="0.3048" layer="16"/>
+<via x="20.330159375" y="7.0358" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="20.330159375" y1="7.0358" x2="20.39111875" y2="6.974840625" width="0.3048" layer="1"/>
+<wire x1="20.39111875" y1="6.974840625" x2="22.1941" y2="6.974840625" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="1"/>
